@@ -11,4 +11,8 @@ public class Commands {
         
     }
 
+	public BendingTournaments getPlugin() {
+		return plugin;
+	}
+
 }

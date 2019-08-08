@@ -1,6 +1,6 @@
 package me.ranawxy.object;
 
-public class CurrentLeader {
+public class CurrentLeader extends Leader {
 	
 	// Need an Element variable
 	
