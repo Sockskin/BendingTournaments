@@ -7,6 +7,18 @@ public abstract class BTCommand implements SubCommand {
 	
 	protected String noPermissionMessage, mustBePlayerMessage;
 
+	public BTCommand(String noPermissionMessage, String mustBePlayerMessage, String name, String properUse,
+			String description, String[] aliases) {
+		super();
+		this.noPermissionMessage = noPermissionMessage;
+		this.mustBePlayerMessage = mustBePlayerMessage;
+		this.name = name;
+		this.properUse = properUse;
+		this.description = description;
+		this.aliases = aliases;
+	}
+
+
 	private String name;
 	
 	private String properUse;

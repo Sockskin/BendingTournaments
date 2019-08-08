@@ -8,6 +8,16 @@ import net.md_5.bungee.api.ChatColor;
 
 public class Start extends BTCommand {
 
+	// Constructor for 'Start' Command.
+	
+	public Start(String noPermissionMessage, String mustBePlayerMessage, String name, String properUse,
+	
+	String description, String[] aliases) {
+		
+	super(noPermissionMessage, mustBePlayerMessage, name, properUse, description, aliases);
+	
+	}
+
 	@Override
 	public void help(CommandSender sender, boolean description) {
 		// TODO Auto-generated method stub
